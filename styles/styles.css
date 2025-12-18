@@ -1,0 +1,44 @@
+body{
+    background-color: lightblue;
+}
+h2{
+    text-decoration: underline;
+    color:rgb(6, 34, 135)
+}
+.common{
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    padding:10px
+}
+.header{
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    top:10px;
+    left: 15px;
+    right: 25px;
+    height: 40px;
+    padding: 10px
+}
+.right{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 225, 125);
+    top: 80px;
+    right: 25px;
+    width: 100px;
+    bottom: 10px;
+    position: fixed;
+}
+.main{
+    top: 80px;
+    left: 15px;
+    right: 160px;
+    bottom: 10px;
+    height: fit-content;
+}
+.italic{
+    font-style:italic;
+    color: rgb(6, 34, 135);
+}
